@@ -13,6 +13,8 @@
 		1BD428991C282CC200CD3002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD428971C282CC200CD3002 /* Main.storyboard */; };
 		1BD4289B1C282CC200CD3002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4289A1C282CC200CD3002 /* Assets.xcassets */; };
 		1BD4289E1C282CC200CD3002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4289C1C282CC200CD3002 /* LaunchScreen.storyboard */; };
+		1BD428A71C282DAF00CD3002 /* lingsheng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD428A51C282DAF00CD3002 /* lingsheng.mp3 */; };
+		1BD428A81C282DAF00CD3002 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD428A61C282DAF00CD3002 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1BD4289A1C282CC200CD3002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BD4289D1C282CC200CD3002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BD4289F1C282CC200CD3002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD428A51C282DAF00CD3002 /* lingsheng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lingsheng.mp3; sourceTree = "<group>"; };
+		1BD428A61C282DAF00CD3002 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				1BD428951C282CC200CD3002 /* ViewController.m */,
 				1BD428971C282CC200CD3002 /* Main.storyboard */,
 				1BD4289A1C282CC200CD3002 /* Assets.xcassets */,
+				1BD428A51C282DAF00CD3002 /* lingsheng.mp3 */,
+				1BD428A61C282DAF00CD3002 /* song.mp3 */,
 				1BD4289C1C282CC200CD3002 /* LaunchScreen.storyboard */,
 				1BD4289F1C282CC200CD3002 /* Info.plist */,
 				1BD4288E1C282CC200CD3002 /* Supporting Files */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD4289E1C282CC200CD3002 /* LaunchScreen.storyboard in Resources */,
+				1BD428A81C282DAF00CD3002 /* song.mp3 in Resources */,
 				1BD4289B1C282CC200CD3002 /* Assets.xcassets in Resources */,
+				1BD428A71C282DAF00CD3002 /* lingsheng.mp3 in Resources */,
 				1BD428991C282CC200CD3002 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -263,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JFPushService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFPushService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JFPushService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFPushService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
